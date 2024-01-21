@@ -16,8 +16,12 @@ function info() {
           loop
         />
       </div>
-      <button className="btn-contact">Contact Me</button>
-      <button className="btn-linke">linkedin</button>
+      <a href="mailto:juandizz@hotmail.com">
+      <button  className="btn-contact" >Contact Me</button>
+      </a>
+      <a href="https://www.linkedin.com/in/juan-david-valencia-zapata-573bb028b/">
+      <button className="btn-linke">Linkedin</button>
+      </a>
     </div>
   );
 }
